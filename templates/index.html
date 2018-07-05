@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+{% for book in books %}
+    <li>{{ book.btitle }}的出版时间是 {{ book.bpub_date }}</li>
+
+{% endfor %}
+
+</body>
+</html>
